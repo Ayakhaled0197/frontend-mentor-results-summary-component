@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+/* Medium 500
+Bold 700
+ExtraBold 800 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.container{
+    max-width:550px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 5px 15px 0px hsla(234, 76%, 29%, 0.111);
+    border-radius: 15px;
+    overflow: hidden;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.box1{
+    background-image: linear-gradient(hsl(252, 100%, 67%) , hsl(241, 81%, 54%));
+    padding: 20px 0;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+p.result{
+    color:  hsl(241, 100%, 89%);
+    font-weight: 400;
+    padding-bottom: 16px;
+}
+.num{
+    background-image:linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    padding:35px 45px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+}
+h5{
+    color: hsl(241, 100%, 89%);
+}
+h3{
+    font-size: 20px;
+    padding-top: 25px;
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 2px;
+}
+p.par1{
+    color:  hsl(241, 100%, 89%);
+    padding: 0 40px ;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.box2{
+    padding:20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: space-between;
+}
+h4{
+    color: hsl(224, 30%, 27%);
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    color:  hsla(224, 30%, 27%, 0.492);
+
+}
+.reaction{
+    background-color: hsla(0, 100%, 67%, 0.067);
+}
+.memory{
+    background-color: hsla(39, 100%, 56%, 0.067);
+}
+.verbal{
+    background-color: hsla(166, 100%, 37%, 0.067);
+}
+.visual{
+    background-color: hsla(234, 85%, 45%, 0.067);
+}
+p.ico{
+    display: flex;
+    align-items: center;
+}
+span.numb{
+    color:hsl(224, 30%, 27%);
+    margin-right: 5px;
+}
+p span{
+    margin-left: 7px;
+}
+p span.react{
+    color: hsl(0, 100%, 67%);
+}
+p span.memo{
+    color: hsl(39, 100%, 56%);
+}
+p span.verb{
+    color: hsl(166, 100%, 37%);
+}
+p span.vis{
+    color: hsl(234, 85%, 45%);
+}
+.btn{
+    background-color: hsl(224, 30%, 27%);
+    display: block;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin-top: 0.3rem;
+}
+.btn:hover{
+    background-image: linear-gradient(hsl(252, 100%, 67%) , hsl(241, 81%, 54%));
+}
+@media only screen and (max-width: 375px) {
+.wrapper{
+    grid-template-columns: 1fr;
+}
+.box1{
+    min-height: 25rem;
+    overflow: visible;
+}
+}
